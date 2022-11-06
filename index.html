@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // #1 Write  the if  statement by using a condition  that  if the age of person is greater than or equals to 18 it returns ‘You are an adult ‘If the age of the person  is less than 18 it returns ‘You are not an adult’.  
+        var age = 19;
+
+        if (age >= 18) {
+            console.log('You are an adult');
+        } else {
+            console.log('You are not an adult');
+        }
+
+        // #2 Write the if else statement by using a condition that if a number is even it  returns ‘number is even’  else return ‘number is odd’.
+        var number = 10;
+
+        if (number % 2 === 0) {
+            console.log('Number is even');
+        } else {
+            console.log('Number is odd');
+        }
+
+        //  #3 Initialize an  array by the name of the game. Add any of the five names to it.  Print the array member one by one .
+        var games = ['Dota', 'Pubg', 'CSGO', 'NFS', 'GTA'];
+
+        console.log(games[0]);
+        console.log(games[1]);
+        console.log(games[2]);
+        console.log(games[3]);
+        console.log(games[4]);
+
+        //#4 Make an object and name it as cities and give it keys and values. Now access the first and fourth value of the respective object and print their values. 
+        var cities = [{
+            cityName: 'Karachi',
+        },
+        {
+            cityName: 'Lahore',
+        },
+        {
+            cityName: 'Islamabad',
+        },
+        {
+            cityName: 'Bhawalpur',
+        },
+        {
+            cityName: 'Hyderabad'
+        }];
+
+        console.log(cities[0]);
+        console.log(cities[3]);
+
+        // #5 Write a program which prints your age by using string concatenation. 
+        var myAge = 31;
+
+        console.log('My age is ' + myAge);
+
+        // #6 Write a program that defines a string ‘JavaScript and assigns  a value to the string's length property ,returning the original  string and the length of the original string.
+        var stringVar = 'javascript';
+
+        console.log(stringVar + ' ' + stringVar.length);
+    </script>
+</body>
+
+</html>
